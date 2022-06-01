@@ -5,7 +5,7 @@
 into that file but it will override current content in a file
 
 */
-$myFile=fopen("names.txt","w") or die("failed to open file");
+$myFile=fopen("../names.txt","w") or die("failed to open file");
 
 $name=array();
 
