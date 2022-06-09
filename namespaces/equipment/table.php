@@ -14,6 +14,16 @@ class Table{
     public function calculateTax(){
         return $this->cost*0.18;
     }
+
+    //getter
+    function getName() {
+        return $this->name;
+    }
+
+    //setter
+    function setName($name){
+        $this->name = $name;
+    }
 }
 
 ?>
