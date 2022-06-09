@@ -2,6 +2,8 @@
 <?php
 // two table classes will be differentiated
 //by using namespaces
+
+//this is the first way of using namespaces
 include "equipment/table.php";
 require "web/html.php";
 
