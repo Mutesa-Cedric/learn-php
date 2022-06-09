@@ -13,5 +13,12 @@ class Table
     }
 }
 
+class Row{
+    public $numCells = 0;
+    public function message()
+    {
+        echo "<p>Row has {$this->numCells} cells.</p>";
+    }
+}
 
 ?>
